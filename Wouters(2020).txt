@@ -1,0 +1,6 @@
+Title: Revisiting A Methodology For Efficient CNN Architecture in Profiling Attacks
+Author: Wouters
+Year: 2020
+Category: Machine Learning
+Summary:
+To Be Added
