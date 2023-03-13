@@ -3,7 +3,7 @@ Title: Revisiting A Methodology For Efficient CNN Architecture in Profiling Atta
 Author: Wouters
 Year: 2020
 Summary:
-In "Revisiting A Methodology For Efficient CNN Architecture in Profiling Attacks," Wouter Wouters proposes an efficient methodology for designing
+In "Revisiting A Methodology For Efficient CNN Architecture in Profiling Attacks," Wouters proposes an efficient methodology for designing
 convolutional neural network (CNN) architectures for profiling attacks. Profiling attacks are a type of side-channel attack that can exploit information
 leaked by a target cryptographic device during its operation, such as power consumption or electromagnetic radiation. The goal of profiling attacks is to
 recover the secret key used by the device.
