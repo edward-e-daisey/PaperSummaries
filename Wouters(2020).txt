@@ -3,4 +3,22 @@ Title: Revisiting A Methodology For Efficient CNN Architecture in Profiling Atta
 Author: Wouters
 Year: 2020
 Summary:
-To Be Added
+In "Revisiting A Methodology For Efficient CNN Architecture in Profiling Attacks," Wouter Wouters proposes an efficient methodology for designing convolutional neural network (CNN) architectures for profiling attacks. Profiling attacks are a type of side-channel attack that can exploit information leaked by a target cryptographic device during its operation, such as power consumption or electromagnetic radiation. The goal of profiling attacks is to recover the secret key used by the device.
+
+The article describes a new approach to designing CNN architectures for profiling attacks that leverages a combination of network pruning and transfer learning. The proposed methodology aims to reduce the computational complexity and memory requirements of the CNN while maintaining its accuracy in profiling the target device.
+
+The article includes experiments on two different datasets using a range of CNN architectures, including LeNet, VGG, and ResNet. The results demonstrate the effectiveness of the proposed methodology, which achieves competitive accuracy with significantly reduced model size and computational cost.
+
+As a technical research paper, "Revisiting A Methodology For Efficient CNN Architecture in Profiling Attacks" has some limitations that should be considered. Some of the limitations of the proposed methodology and the experiments conducted in the paper are:
+
+(1) The proposed methodology is only evaluated on two datasets, and it is unclear how well it would generalize to other datasets or different types of devices. Further experimentation is needed to assess the robustness of the methodology.
+
+(2) The experiments conducted in the paper focus on only one type of side-channel attack, i.e., profiling attacks, and do not consider other types of side-channel attacks, such as fault attacks or template attacks. It is unclear how well the proposed methodology would perform in these other attack scenarios.
+
+(3) The experiments are conducted under certain assumptions and conditions, such as the use of a specific hardware setup, data preprocessing techniques, and training parameters. It is unclear how sensitive the results are to these assumptions and whether they would hold under different experimental conditions.
+
+(4) Although the proposed methodology achieves significant reductions in model size and computational cost, it is not clear whether these reductions would be sufficient for practical deployment in real-world scenarios. Further investigation is needed to determine the feasibility of deploying these models on resource-constrained devices.
+
+While the proposed methodology shows promise in designing efficient CNN architectures for profiling attacks, more research is needed to fully understand its limitations and generalizability.
+
+Overall, "Revisiting A Methodology For Efficient CNN Architecture in Profiling Attacks" presents an important contribution to the field of side-channel analysis and offers a practical approach to designing efficient CNN architectures for profiling attacks.
